@@ -1,4 +1,5 @@
-# ML_midterm_assignment
+# CLASSIFIER FOR IDENTIFYING LARGE LANGUAGE MODELS
+
 
 ## Task
 Project description: Given a set of truncated texts, for each piece of text xi, such as “Yesterday I went”, ask different Large Language Models (LLMs) to complete it by appending xj =”to Costco and purchased a floor cleaner.” so you get a complete text like “Yesterday I went to Costco and purchased a floor cleaner.” from each LLM. The same xi leads to different xj. Now please build a deep learning classifier to figure out, for each input (xi, xj), which LLM was used for this pair.
